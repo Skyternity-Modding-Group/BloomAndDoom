@@ -1,6 +1,6 @@
 ![Logo]()
 
-### Bloom And Doom - for Forge 1.19.2 - by uhhh, yes.
+### Bloom And Doom - for Forge/Fabric 1.20.1
 
 ## About
 
