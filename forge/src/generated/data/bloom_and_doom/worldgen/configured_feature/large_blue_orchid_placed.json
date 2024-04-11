@@ -1,0 +1,8 @@
+{
+  "type": "bloom_and_doom:structure_feature",
+  "config": {
+    "chance": 0.1,
+    "count": 1,
+    "structure": "bloom_and_doom:blue_orchid"
+  }
+}

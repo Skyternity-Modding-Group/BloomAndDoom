@@ -1,7 +1,7 @@
 package multiteam.bloomanddoom.main;
 
 import com.mojang.serialization.Codec;
-import multiteam.bloomanddoom.main.world.structure.ModStructureProcessorTypes;
+import multiteam.bloomanddoom.main.worldgen.structure.ModStructureProcessorTypes;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.level.LevelReader;
 import net.minecraft.world.level.levelgen.structure.templatesystem.StructurePlaceSettings;

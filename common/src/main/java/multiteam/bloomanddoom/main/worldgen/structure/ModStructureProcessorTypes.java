@@ -1,4 +1,4 @@
-package multiteam.bloomanddoom.main.world.structure;
+package multiteam.bloomanddoom.main.worldgen.structure;
 
 import multiteam.bloomanddoom.main.IgnoreAirBlocksProcessor;
 import multiteam.bloomanddoom.main.growable_flower.GrowMethodProcessor;

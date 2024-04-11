@@ -24,7 +24,13 @@ subprojects {
 
     loom {
         silentMojangMappingsLicense()
+
+        runs.configureEach {
+            property 'mixin.env.remapRefMap', 'true'
+            property 'mixin.env.refMapRemappingFile', "${buildDir}/createSrgToMcp/output.srg"
+        }
     }
+
 
     dependencies {
         minecraft "com.mojang:minecraft:${rootProject.minecraft_version}"

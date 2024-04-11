@@ -2,7 +2,7 @@ package multiteam.bloomanddoom.main.growable_flower;
 
 import com.mojang.serialization.Codec;
 import com.mojang.serialization.codecs.RecordCodecBuilder;
-import multiteam.bloomanddoom.main.world.structure.ModStructureProcessorTypes;
+import multiteam.bloomanddoom.main.worldgen.structure.ModStructureProcessorTypes;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.item.ItemEntity;

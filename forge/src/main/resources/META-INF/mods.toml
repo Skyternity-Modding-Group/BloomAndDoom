@@ -38,3 +38,10 @@ mandatory = true
 versionRange = "[9.1,10)"
 ordering = "NONE"
 side = "BOTH"
+
+[[dependencies.bloom_and_doom]]
+modId = "terrablender"
+mandatory = true
+versionRange = "[3.0,)"
+ordering = "NONE"
+side = "BOTH"
