@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "id": "bloom_and_doom",
+  "version": "${version}",
+  "name": "Bloom and Doom",
+  "description": "${description}",
+  "authors": [
+    "MultiTeam",
+    "Skyternity"
+  ],
+  "contributors": [
+    {
+      "name": "XyperCode",
+      "contact": {
+        "homepage": "https://github.com/XyperCode"
+      }
+    }
+  ],
+  "contact": {
+    "homepage": "https://github.com/Skyternity-Modding-Group/BloomAndDoom",
+    "sources": "https://github.com/Skyternity-Modding-Group/BloomAndDoom",
+    "issues": "https://github.com/Skyternity-Modding-Group/BloomAndDoom/issues",
+    "discord": "https://discord.gg/dtdc46g6ry",
+    "guilded": "https://guilded.gg/ultreon",
+    "youtube": "https://youtube.com/@ultreon"
+  },
+  "license": "GPL-3.0",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "multiteam.bloomanddoom.client.fabric.BloomAndDoomFabricClient"
+    ],
+    "main": [
+      "multiteam.bloomanddoom.fabric.BloomAndDoomFabric"
+    ]
+  },
+  "mixins": [
+    "BloomAndDoom.mixins.json",
+    "BloomAndDoom-common.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loaderVersion}",
+    "minecraft": ">=${minecraftVersion} <1.20.2",
+    "architectury": ">=9.1 <10"
+  }
+}

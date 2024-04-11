@@ -1,0 +1,40 @@
+modLoader = "javafml"
+loaderVersion = "[${loaderVersion},)"
+license = "GPL-3.0"
+issueTrackerURL = "https://github.com/Skyternity-Modding-Group/BloomAndDoom/issues"
+
+# The main mod, and all sub-mods.
+[[mods]]
+modId = "bloom_and_doom"
+version = "${version}"
+displayName = "Bloom and Doom"
+#updateJSONURL="http://myurl.me/"
+displayURL = "https://github.com/Skyternity-Modding-Group/BloomAndDoom"
+credits = "XyperCode (https://github.com/XyperCode), Pyrocide11 (https://github.com/Pyrocide11), and the rest of Skyternity (https://github.com/Skyternity-Modding-Group) and MultiTeam"
+authors = "MultiTeam, Skyternity"
+description = """
+${description}
+"""
+displayTest = "MATCH_VERSION"
+
+# Dependencies for the main mod.
+[[dependencies.bloom_and_doom]]
+modId = "forge"
+mandatory = true
+versionRange = "[${forgeVersion},)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.bloom_and_doom]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[${minecraftVersion},1.20.2)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.bloom_and_doom]]
+modId = "architectury"
+mandatory = true
+versionRange = "[9.1,10)"
+ordering = "NONE"
+side = "BOTH"

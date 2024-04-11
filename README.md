@@ -9,5 +9,6 @@ Rember to write about section
 ## Credits
 
 - LazTheArtist [Code]
+- XyperCode (Qboi) [Code, Porting]
 - Pyrocidian [yes]
 - rember to fill out credits section
