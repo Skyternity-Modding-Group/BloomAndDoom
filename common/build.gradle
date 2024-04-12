@@ -29,7 +29,10 @@ sourceSets {
             ]
             System.out.println(srcDirs)
         }
+
+        resources.srcDir file("src/generated")
     }
+
 }
 
 publishing {

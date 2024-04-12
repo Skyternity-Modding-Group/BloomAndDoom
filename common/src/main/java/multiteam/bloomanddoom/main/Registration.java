@@ -14,6 +14,7 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.levelgen.feature.Feature;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -24,6 +25,7 @@ public class Registration {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister.create(References.MOD_ID, Registries.CREATIVE_MODE_TAB);
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(References.MOD_ID, Registries.BLOCK);
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(References.MOD_ID, Registries.ITEM);
+    public static final DeferredRegister<Feature<?>> FEATURES = DeferredRegister.create(References.MOD_ID, Registries.FEATURE);
 
     public static final Registrar<GrowableFlower> GROWABLE_FLOWER = REGISTRAR_MANAGER.<GrowableFlower>builder(BloomAndDoom.res("growable_flower")).saveToDisc().syncToClients().build();
 
@@ -33,6 +35,8 @@ public class Registration {
     public static void register() {
         BLOCKS.register();
         ITEMS.register();
+        FEATURES.register();
+        CREATIVE_MODE_TABS.register();
 
         ModBlocks.register();
         ModItems.register();
