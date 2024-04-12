@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "bloom_and_doom:block/stem_planks",
+    "side": "bloom_and_doom:block/stem_planks",
+    "top": "bloom_and_doom:block/stem_planks"
+  }
+}

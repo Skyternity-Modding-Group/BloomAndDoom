@@ -6,17 +6,12 @@ plugins {
 
 version rootProject.version
 
-def generatedResources = file("src/generated")
+def generatedResources = project(":common").file("src/generated")
+def commonResources = project(":common").file("src/main/resources")
 
 architectury {
     platformSetupLoomIde()
     forge()
-}
-
-sourceSets {
-    main {
-        resources.srcDir generatedResources
-    }
 }
 
 loom {
@@ -25,6 +20,7 @@ loom {
             data()
             programArgs "--all", "--mod", mod_id
             programArgs "--output", generatedResources.absolutePath
+            programArgs "--existing", commonResources.absolutePath
         }
     }
 }

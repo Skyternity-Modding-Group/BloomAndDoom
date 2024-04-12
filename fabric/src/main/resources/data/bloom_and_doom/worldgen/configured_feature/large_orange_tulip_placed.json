@@ -1,8 +1,0 @@
-{
-  "type": "bloom_and_doom:structure_feature",
-  "config": {
-    "chance": 0.8,
-    "count": 1,
-    "structure": "bloom_and_doom:orange_tulip"
-  }
-}
