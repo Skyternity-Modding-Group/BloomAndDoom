@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "ingredients": [
+    {
+      "item": "bloom_and_doom:stem_planks"
+    }
+  ],
+  "result": {
+    "item": "bloom_and_doom:stem_button"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "bloom_and_doom:block/thorny_stem",
+      "x": 90,
+      "y": 90,
+      "z": 90
+    },
+    "axis=y": {
+      "model": "bloom_and_doom:block/thorny_stem"
+    },
+    "axis=z": {
+      "model": "bloom_and_doom:block/thorny_stem",
+      "x": 90,
+      "z": 90
+    }
+  }
+}

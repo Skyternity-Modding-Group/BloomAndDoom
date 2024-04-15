@@ -1,6 +1,6 @@
 package multiteam.bloomanddoom.terrablender.fabric;
 
-import multiteam.bloomanddoom.main.worldgen.biome.ModTerrablender;
+import multiteam.bloomanddoom.world.gen.biome.ModTerrablender;
 import terrablender.api.TerraBlenderApi;
 
 public class BloomAndDoomTerraBlenderFabric implements TerraBlenderApi {

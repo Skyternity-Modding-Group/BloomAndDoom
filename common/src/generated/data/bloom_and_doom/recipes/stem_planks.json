@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "planks",
+  "ingredients": [
+    {
+      "tag": "bloom_and_doom:stems"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "bloom_and_doom:stem_planks"
+  }
+}
