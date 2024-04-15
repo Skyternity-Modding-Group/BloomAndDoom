@@ -1,0 +1,9 @@
+{
+  "feature": "bloom_and_doom:large_azure_bluet_placed",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 1
+    }
+  ]
+}

@@ -18,16 +18,7 @@
     [],
     [],
     [],
-    [
-      "bloom_and_doom:large_dandelion_placed",
-      "bloom_and_doom:large_poppy_placed",
-      "bloom_and_doom:large_blue_orchid_placed",
-      "bloom_and_doom:large_allium_placed",
-      "bloom_and_doom:large_red_tulip_placed",
-      "bloom_and_doom:large_orange_tulip_placed",
-      "bloom_and_doom:large_white_tulip_placed",
-      "bloom_and_doom:large_pink_tulip_placed"
-    ],
+    [],
     [],
     [
       "minecraft:ore_coal_upper",
@@ -58,8 +49,10 @@
       "minecraft:trees_plains",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
-      "minecraft:patch_sugar_cane",
-      "minecraft:patch_pumpkin"
+      "minecraft:patch_grass_plain",
+      "minecraft:flower_meadow",
+      "minecraft:trees_meadow",
+      "bloom_and_doom:large_flower_vegetation"
     ]
   ],
   "has_precipitation": true,

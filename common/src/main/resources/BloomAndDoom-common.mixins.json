@@ -4,10 +4,9 @@
   "package": "multiteam.bloomanddoom.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
-
+    "SignBlockMixin"
   ],
   "client": [
-
   ],
   "injectors": {
     "defaultRequire": 1

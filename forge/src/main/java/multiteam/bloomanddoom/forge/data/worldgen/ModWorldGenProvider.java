@@ -1,9 +1,9 @@
 package multiteam.bloomanddoom.forge.data.worldgen;
 
-import multiteam.bloomanddoom.References;
-import multiteam.bloomanddoom.main.worldgen.ModConfiguredFeatures;
-import multiteam.bloomanddoom.main.worldgen.ModPlacements;
-import multiteam.bloomanddoom.main.worldgen.biome.ModBiomes;
+import multiteam.bloomanddoom.init.References;
+import multiteam.bloomanddoom.world.gen.ModConfiguredFeatures;
+import multiteam.bloomanddoom.world.gen.ModPlacements;
+import multiteam.bloomanddoom.world.gen.biome.ModBiomes;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.core.RegistrySetBuilder;
 import net.minecraft.core.registries.Registries;
