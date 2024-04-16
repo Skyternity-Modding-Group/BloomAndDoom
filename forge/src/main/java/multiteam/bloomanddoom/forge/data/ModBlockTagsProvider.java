@@ -24,6 +24,7 @@ public class ModBlockTagsProvider extends BlockTagsProvider {
     protected void addTags(HolderLookup.@NotNull Provider arg) {
         IntrinsicTagAppender<Block> petalBlocks = tag(ModBlockTags.PETAL_BLOCKS);
         IntrinsicTagAppender<Block> stems = tag(ModBlockTags.STEMS);
+        IntrinsicTagAppender<Block> mineableWithAxe = tag(BlockTags.MINEABLE_WITH_AXE);
         IntrinsicTagAppender<Block> mineableWithHoe = tag(BlockTags.MINEABLE_WITH_HOE);
         IntrinsicTagAppender<Block> planks = tag(BlockTags.PLANKS);
         IntrinsicTagAppender<Block> logs = tag(BlockTags.LOGS);
@@ -49,6 +50,7 @@ public class ModBlockTagsProvider extends BlockTagsProvider {
 
         planks.add(ModBlocks.STEM_PLANKS.get());
         stems.add(ModBlocks.STEM.get());
+        stems.add(ModBlocks.THORNY_STEM.get());
         fences.add(ModBlocks.STEM_FENCE.get());
         fenceGates.add(ModBlocks.STEM_FENCE_GATE.get());
         doors.add(ModBlocks.STEM_DOOR.get());
@@ -61,5 +63,23 @@ public class ModBlockTagsProvider extends BlockTagsProvider {
         wallSigns.add(ModBlocks.STEM_WALL_SIGN.get());
         wallHangingSigns.add(ModBlocks.STEM_WALL_HANGING_SIGN.get());
         ceilingHangingSigns.add(ModBlocks.STEM_HANGING_SIGN.get());
+
+        mineableWithAxe.addTag(ModBlockTags.STEMS);
+        mineableWithAxe.add(ModBlocks.STRIPPED_STEM.get());
+        mineableWithAxe.add(ModBlocks.STEM_BUNDLE.get());
+        mineableWithAxe.add(ModBlocks.STRIPPED_STEM_BUNDLE.get());
+        mineableWithAxe.add(ModBlocks.STEM_PLANKS.get());
+        mineableWithAxe.add(ModBlocks.STEM_SLAB.get());
+        mineableWithAxe.add(ModBlocks.STEM_STAIRS.get());
+        mineableWithAxe.add(ModBlocks.STEM_SIGN.get());
+        mineableWithAxe.add(ModBlocks.STEM_WALL_SIGN.get());
+        mineableWithAxe.add(ModBlocks.STEM_HANGING_SIGN.get());
+        mineableWithAxe.add(ModBlocks.STEM_WALL_HANGING_SIGN.get());
+        mineableWithAxe.add(ModBlocks.STEM_FENCE.get());
+        mineableWithAxe.add(ModBlocks.STEM_FENCE_GATE.get());
+        mineableWithAxe.add(ModBlocks.STEM_DOOR.get());
+        mineableWithAxe.add(ModBlocks.STEM_TRAPDOOR.get());
+        mineableWithAxe.add(ModBlocks.STEM_BUTTON.get());
+        mineableWithAxe.add(ModBlocks.STEM_PRESSURE_PLATE.get());
     }
 }

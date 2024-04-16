@@ -32,7 +32,8 @@ public class ModBlocks {
     public static final RegistrySupplier<ThornyStemBlock> THORNY_STEM = Registration.BLOCKS.register("thorny_stem", ThornyStemBlock::new);
     public static final RegistrySupplier<FlowerStemBlock> STRIPPED_STEM = Registration.BLOCKS.register("stripped_stem", FlowerStemBlock::new);
     public static final RegistrySupplier<Block> STEM_PLANKS = Registration.BLOCKS.register("stem_planks", () -> new Block(BlockBehaviour.Properties.copy(CRIMSON_PLANKS)));
-    public static final RegistrySupplier<Block> STEM_BUNDLE = Registration.BLOCKS.register("stem_bundle", () -> new Block(BlockBehaviour.Properties.copy(CRIMSON_STEM)));
+    public static final RegistrySupplier<Block> STEM_BUNDLE = Registration.BLOCKS.register("stem_bundle", () -> new Block(BlockBehaviour.Properties.copy(CRIMSON_HYPHAE)));
+    public static final RegistrySupplier<Block> STRIPPED_STEM_BUNDLE = Registration.BLOCKS.register("stripped_stem_bundle", () -> new Block(BlockBehaviour.Properties.copy(STRIPPED_CRIMSON_HYPHAE)));
     public static final RegistrySupplier<SlabBlock> STEM_SLAB = Registration.BLOCKS.register("stem_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(CRIMSON_SLAB)));
     public static final RegistrySupplier<StairBlock> STEM_STAIRS = Registration.BLOCKS.register("stem_stairs", () -> new StairBlock(STEM_PLANKS.get().defaultBlockState(), BlockBehaviour.Properties.copy(CRIMSON_STAIRS)));
     public static final RegistrySupplier<DoorBlock> STEM_DOOR = Registration.BLOCKS.register("stem_door", () -> new DoorBlock(BlockBehaviour.Properties.copy(CRIMSON_DOOR), ModBlockSetType.STEM));

@@ -12,8 +12,8 @@ import org.jetbrains.annotations.NotNull;
 
 import java.util.function.Consumer;
 
-public class ModRecipesProvider extends RecipeProvider {
-    public ModRecipesProvider(PackOutput packOutput) {
+public class ModRecipeProvider extends RecipeProvider {
+    public ModRecipeProvider(PackOutput packOutput) {
         super(packOutput);
     }
 
@@ -47,6 +47,7 @@ public class ModRecipesProvider extends RecipeProvider {
                 .save(consumer);
 
         woodFromLogs(consumer, ModBlocks.STEM_BUNDLE.get(), ModBlocks.STEM.get());
+        woodFromLogs(consumer, ModBlocks.STRIPPED_STEM_BUNDLE.get(), ModBlocks.STRIPPED_STEM.get());
 
         woodenBoat(consumer, ModItems.STEM_BOAT.get(), ModBlocks.STEM_PLANKS.get());
         chestBoat(consumer, ModItems.STEM_CHEST_BOAT.get(), ModItems.STEM_BOAT.get());

@@ -6,6 +6,7 @@ import net.minecraft.world.entity.vehicle.Boat;
 import net.minecraft.world.entity.vehicle.ChestBoat;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.Level;
+import org.jetbrains.annotations.NotNull;
 
 public class StemChestBoat extends ChestBoat {
     public StemChestBoat(EntityType<? extends Boat> entityType, Level level) {
@@ -21,7 +22,7 @@ public class StemChestBoat extends ChestBoat {
     }
 
     @Override
-    public Item getDropItem() {
+    public @NotNull Item getDropItem() {
         return ModItems.STEM_CHEST_BOAT.get();
     }
 }

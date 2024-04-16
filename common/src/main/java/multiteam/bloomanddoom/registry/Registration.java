@@ -56,7 +56,5 @@ public class Registration {
         GrowableFlowerRegistry.init();
 
         ModBlockTags.init();
-
-        ModBlocks.registerStrippables();
     }
 }
