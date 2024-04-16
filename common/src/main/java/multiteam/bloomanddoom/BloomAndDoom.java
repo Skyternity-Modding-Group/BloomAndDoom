@@ -7,6 +7,7 @@ import multiteam.bloomanddoom.block.ModBlocks;
 import multiteam.bloomanddoom.block.wood.ModWoodType;
 import multiteam.bloomanddoom.init.EventHandler;
 import multiteam.bloomanddoom.init.References;
+import multiteam.bloomanddoom.item.ModItems;
 import multiteam.bloomanddoom.registry.BlockSetTypeRegistry;
 import multiteam.bloomanddoom.registry.Registration;
 import multiteam.bloomanddoom.registry.WoodTypeRegistry;
@@ -25,6 +26,8 @@ public class BloomAndDoom {
 
     private void commonSetup() {
         SurfaceRuleManager.addSurfaceRules(SurfaceRuleManager.RuleCategory.OVERWORLD, References.MOD_ID, ModSurfaceRules.makeRules());
+        ModBlocks.registerStrippables();
+        ModItems.registerFuels();
     }
 
     @SuppressWarnings("UnreachableCode")

@@ -21,7 +21,7 @@ public class StemBoat extends Boat implements IStemBoat {
     }
 
     @Override
-    public Type getVariant() {
+    public @NotNull Type getVariant() {
         return Type.OAK;
     }
 

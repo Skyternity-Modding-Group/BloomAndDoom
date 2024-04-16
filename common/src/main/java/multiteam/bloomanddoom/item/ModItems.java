@@ -1,5 +1,6 @@
 package multiteam.bloomanddoom.item;
 
+import dev.architectury.registry.fuel.FuelRegistry;
 import dev.architectury.registry.registries.RegistrySupplier;
 import multiteam.bloomanddoom.registry.Registration;
 import multiteam.bloomanddoom.block.ModBlocks;
@@ -63,5 +64,9 @@ public class ModItems {
                 .title(Component.literal("Bloom and Doom"))
                 .icon(() -> new ItemStack(Items.POPPY))
                 .build());
+    }
+
+    public static void registerFuels() {
+        FuelRegistry.register(200, ModBlocks.getPetalBlocks().map(Block::asItem).toArray(Item[]::new));
     }
 }

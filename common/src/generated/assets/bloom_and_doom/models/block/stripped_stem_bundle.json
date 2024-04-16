@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "bloom_and_doom:block/stem"
+    "all": "bloom_and_doom:block/stripped_stem"
   }
 }

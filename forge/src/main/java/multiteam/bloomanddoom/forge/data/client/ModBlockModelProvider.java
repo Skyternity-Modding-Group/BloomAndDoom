@@ -28,7 +28,8 @@ public class ModBlockModelProvider extends BlockStateProvider {
         logBlock(ModBlocks.STRIPPED_STEM.get());
 
         simpleBlock(ModBlocks.STEM_PLANKS.get());
-        simpleBlock(ModBlocks.STEM_BUNDLE.get(), models().cubeAll("stem_bundle", References.res("block/stem_planks")));
+        simpleBlock(ModBlocks.STEM_BUNDLE.get(), models().cubeAll("stem_bundle", References.res("block/stem")));
+        simpleBlock(ModBlocks.STRIPPED_STEM_BUNDLE.get(), models().cubeAll("stripped_stem_bundle", References.res("block/stripped_stem")));
 
         slabBlock(ModBlocks.STEM_SLAB.get(), References.res("block/stem_planks"), References.res("block/stem_planks"));
         stairsBlock(ModBlocks.STEM_STAIRS.get(), References.res("block/stem_planks"));

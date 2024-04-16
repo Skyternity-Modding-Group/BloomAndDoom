@@ -1,0 +1,21 @@
+{
+  "values": [
+    "#bloom_and_doom:stems",
+    "bloom_and_doom:stripped_stem",
+    "bloom_and_doom:stem_bundle",
+    "bloom_and_doom:stripped_stem_bundle",
+    "bloom_and_doom:stem_planks",
+    "bloom_and_doom:stem_slab",
+    "bloom_and_doom:stem_stairs",
+    "bloom_and_doom:stem_sign",
+    "bloom_and_doom:stem_wall_sign",
+    "bloom_and_doom:stem_hanging_sign",
+    "bloom_and_doom:stem_wall_hanging_sign",
+    "bloom_and_doom:stem_fence",
+    "bloom_and_doom:stem_fence_gate",
+    "bloom_and_doom:stem_door",
+    "bloom_and_doom:stem_trapdoor",
+    "bloom_and_doom:stem_button",
+    "bloom_and_doom:stem_pressure_plate"
+  ]
+}
